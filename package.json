@@ -1,0 +1,39 @@
+{
+  "name": "vue-web-highlights",
+  "description": "A Vue.js project",
+  "version": "0.2.0",
+  "author": "wangzunmin <1341591227@qq.com>",
+  "license": "MIT",
+  "private": false,
+  "main": "./dist/vuejs-highlight.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "less": "^3.12.2",
+    "less-loader": "^4.1.0",
+    "lodash": "^4.17.20",
+    "style-loader": "^2.0.0",
+    "vue": "^2.5.11",
+    "vuex": "^3.5.1",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "cross-env": "^5.2.1",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "vue-loader": "^15.9.5",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
