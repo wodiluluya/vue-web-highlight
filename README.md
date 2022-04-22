@@ -1,5 +1,4 @@
 <div> 
-
     <h1 align="center"><code>React Web Highlighter的vue版本</code>&nbsp;&nbsp;🖍️</h1>
     <p align="center">
     依据React Web Highlighter改写了vue版本
@@ -7,7 +6,6 @@
     <p align="center">
         <strong>一个富文本高亮笔记前端库，支持高亮文本的持久化存储与还原</strong>
     </p>
-
 </div>
 
 ## 0. 在线案例

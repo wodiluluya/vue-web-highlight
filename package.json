@@ -1,11 +1,12 @@
 {
   "name": "vue-web-highlights",
-  "description": "A Vue.js project",
-  "version": "0.2.0",
+  "description": "富文本高亮",
+  "version": "0.4.0",
   "author": "wangzunmin <1341591227@qq.com>",
+  "homepage":"https://github.com/wodiluluya/vue-web-highlight",
   "license": "MIT",
   "private": false,
-  "main": "./dist/vuejs-highlight.js",
+  "main": "./dist/vuejsHighlight.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
